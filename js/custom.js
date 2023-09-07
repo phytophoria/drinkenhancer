@@ -1,30 +1,3 @@
-// Get references to the popup and form
-const popup = document.getElementById("age-verification-popup");
-const form = document.getElementById("age-verification-form");
-
-// Display the popup
-function displayPopup() {
-    popup.style.display = "flex";
-}
-
-// Check the age when the form is submitted
-form.addEventListener("submit", function (e) {
-    e.preventDefault();
-    const ageInput = document.getElementById("age").value;
-    const minAge = 21; // Adjust the minimum age as needed
-
-    if (parseInt(ageInput) >= minAge) {
-        // Age is valid, hide the popup
-        popup.style.display = "none";
-    } else {
-        // Age is not valid, display an error message or take appropriate action
-        alert("You must be at least 21 years old to access this website.");
-    }
-});
-
-// Display the popup when the page loads (optional)
-window.addEventListener("load", displayPopup);
-
 // navigation  menu js
 function openNav() {
     $("#myNav").addClass("menu_width");
