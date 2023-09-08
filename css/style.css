@@ -80,7 +80,7 @@ body {
 }
 
 .detail_box_common {
-  background-color: #a34318;
+  background-color: #2d6641;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,7 +108,7 @@ body {
 
 .sub_page .header_section {
   position: relative;
-  background-color: #85310c;
+  background-color: #062914;
 }
 
 .sub_page .header_section .custom_menu-btn span {
@@ -241,7 +241,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(141, 58, 21, 0.95);
+  background-color: #062914;
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -390,10 +390,10 @@ a:focus {
 
 .slider_section .detail-box a {
   display: inline-block;
-  background-color: #85310c;
+  background-color: #062914;
   color: #ffffff;
   padding: 10px 45px;
-  border: 1px solid #85310c;
+  border: 1px solid #062914;
   border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -442,7 +442,7 @@ a:focus {
           align-items: center;
   font-size: 20px;
   color: #ffffff;
-  background-color: #85310c;
+  background-color: #062914;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -450,7 +450,7 @@ a:focus {
 .slider_section .carousel_btn-box .slider_btn_prev:hover,
 .slider_section .carousel_btn-box .slider_btn_next:hover {
   background-color: #ffffff;
-  color: #85310c;
+  color: #062914;
 }
 
 .about_section .heading_container h2 {
@@ -458,7 +458,7 @@ a:focus {
 }
 
 .about_section .detail-box {
-  background-color: #a34318;
+  background-color: #2d6641;
   padding: 0 20px;
 }
 
@@ -468,10 +468,10 @@ a:focus {
 
 .about_section .detail-box a {
   display: inline-block;
-  background-color: #85310c;
+  background-color: #062914;
   color: #ffffff;
   padding: 10px 40px;
-  border: 1px solid #85310c;
+  border: 1px solid #062914;
   border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -508,7 +508,7 @@ a:focus {
 }
 
 .portfolio_section .heading_container h2::before {
-  background-color: #85310c;
+  background-color: #2d6641;
 }
 
 .portfolio_section p {
@@ -658,10 +658,10 @@ a:focus {
 
 .portfolio_section .read_btn {
   display: inline-block;
-  background-color: #85310c;
+  background-color: #062914;
   color: #ffffff;
   padding: 7px 30px;
-  border: 1px solid #85310c;
+  border: 1px solid #062914;
   border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -671,7 +671,7 @@ a:focus {
 
 .portfolio_section .read_btn:hover {
   background-color: transparent;
-  color: #85310c;
+  color: #062914;
 }
 
 .team_section .team_container {
@@ -823,7 +823,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #762500;
+  background-color: #062914;
   color: #ffffff;
   padding: 0 15px;
 }
